@@ -1,3 +1,3 @@
-# Descripltio (h1)
+# Descripltion
 
-**pip install qrcode[pil]** (h2)
+**pip install qrcode[pil]** 
