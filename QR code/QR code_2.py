@@ -7,7 +7,7 @@ from qrcode.image.styles.colormasks import VerticalGradiantColorMask
 # --- 1. DATA & PALETTE ---
 vcard = (
     "BEGIN:VCARD\nVERSION:3.0\n"
-    "FN:Athar Mubarak\nTEL;TYPE=CELL:8899625799\n"
+    "FN:Your Name\nTEL;TYPE=CELL:Your Phone Number\n"
     "ORG:Airtel Interior Premium\nEND:VCARD"
 )
 
@@ -57,7 +57,7 @@ except:
 
 margin_right = 90
 instr_text = "S C A N  •  T O  •  C O N T A C T"
-name_text = "ATHAR MUBARAK"
+name_text = "Your Name"
 tw_scan = draw.textbbox((0, 0), instr_text, font=font_scan)[2]
 tw_name = draw.textbbox((0, 0), name_text, font=font_name)[2]
 
