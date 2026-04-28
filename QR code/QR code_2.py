@@ -7,7 +7,7 @@ from qrcode.image.styles.colormasks import VerticalGradiantColorMask
 # --- 1. DATA & PALETTE ---
 vcard = (
     "BEGIN:VCARD\nVERSION:3.0\n"
-    "FN:Your Name\nTEL;TYPE=CELL:Your Phone Number\n"
+    "FN:Your Name\nTEL;TYPE=CELgit commit -m L:Your Phone Number\n"
     "ORG:Airtel Interior Premium\nEND:VCARD"
 )
 
