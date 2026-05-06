@@ -52,7 +52,7 @@ draw = ImageDraw.Draw(canvas)
 try:
     font_name = ImageFont.truetype("timesbd.ttf", 54)
     font_scan = ImageFont.truetype("arialbd.ttf", 32)
-except:
+except FileNotFoundError:
     font_name = font_scan = ImageFont.load_default()
 
 margin_right = 90
